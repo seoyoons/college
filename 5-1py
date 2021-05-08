@@ -1,0 +1,14 @@
+# 블리안 : boolean  #조건문이라고 생각
+# 참(True)과 거짓(False) 표현
+
+x = True
+y = False
+
+print(x), print(y)
+
+a = 3
+b = 4
+if a > b :
+  print("a가 크다.")      #False이기 때문에 출력이 안된다.
+if a < b :
+  print("b가 크다.")
