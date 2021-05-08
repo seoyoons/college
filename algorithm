@@ -1,0 +1,62 @@
+# 1
+
+pay_rate = 8750
+hours_worked = int(input("일을 한 전체 시간을 입력하세요: "))
+monthly_pay = hours_worked * pay_rate
+print(monthly_pay)
+
+# 2 환율 계산
+
+exchage_rate = int(input("현재 환율 입력: "))
+won = 100000
+usd = won * exchange_rate
+print(usd)
+
+# 3 화씨를 섭씨로
+
+fahrenheit = 100
+celsius = fahrenheit-32
+celsius = celsius * 5 
+celsius = celsius/9
+print(celsius)
+
+# 4
+
+x = 0
+y = 0
+x = int(input("정수 x를 입력하시오: "))
+y = int(input("정수 y를 입력하시오: "))
+sum = x + y 
+print(sum)
+
+
+# 부가세 계산 
+price = int(input("상품의 가격을 입력하시오: "))
+vat = price * 0.1
+print(vat)
+
+
+# 10년 후 나이
+
+age = int(input("현재 나이를 입력하시오: "))
+age = age + 10
+print("10년 후면", age, "세가 되시는군요")
+
+
+# 배송료 계산
+
+price = int(input("상품의 가격을 입력하세요: "))
+if price > 2000:
+  shipping_cost = 0
+else:
+  shipping_cost = 3000
+print(shipping_cost)
+
+
+# 성적 입력 후 합격 여부 
+
+grade = int(input("성적을 입력하시오: "))
+if grade >= 60:
+  print("합격")
+else:
+  print("불합격")
